@@ -9,6 +9,7 @@ import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import NotFound from './component/NotFound/NotFound';
 import Services from './component/Services/Services';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
