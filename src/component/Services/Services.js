@@ -1,9 +1,12 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Services = () => {
     return (
         <div>
-            <h1>this is services section</h1>
+            <Container>
+                <h1>this is services section</h1>
+            </Container>
         </div>
     );
 };
