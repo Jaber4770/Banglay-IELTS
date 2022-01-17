@@ -1,3 +1,8 @@
 .bg-color{
     background-color: rgb(241, 241, 241);
 }
+.ielts-result{
+    font-size: 20px;
+    background-color: yellow;
+    padding: 10px 5px;
+}

@@ -1,14 +1,20 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import img from '../../images/Contact.jpg'
+import './Contact.css'
 
 const Contact = () => {
     return (
-        <div className='bg-color'>
+        <div>
             <Container>
-                <div className='p-3'>
-                    <h4>Hello viewers,</h4>
-                    <p>If you want to join in my private BATCH, please contact with me on WhatsApp and Please don't call me. Send me text only. I will reply you soon.</p>
-                    <p>Before adding to my Batch I need to know about you too. Answar me clearly if I ask you something.</p>
+                <div>
+                    <div className='p-3 mt-3 about-bg-color'>
+                        <h4>Hello viewers,</h4>
+                        <p>If you want to talk with me,  Please <b>don't call me</b> on <b>WhatsApp</b>. Send me <b>text only</b>. I will reply you soon.</p>
+                    </div>
+                    <div className='img-fluid covered text-center'>
+                        <img src={img} alt="" />
+                    </div>
                 </div>
             </Container>
         </div>
