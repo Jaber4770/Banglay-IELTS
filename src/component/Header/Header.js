@@ -10,6 +10,9 @@ import './header.css'
 const Header = () => {
     return (
         <div>
+
+            {/* header top info */}
+
             <div className='bg-dark'>
                 <Container className='p-2 text-light'>
                     <span className='px-2'><FontAwesomeIcon icon={faPhone} /> 01303-401961</span>
@@ -20,6 +23,9 @@ const Header = () => {
                     <a className='text-light social-icon yt' href="https://youtube.com/banglayielts"><FontAwesomeIcon icon={faYoutube} /></a>
                 </Container>
             </div>
+
+            {/* Below Navbar */}
+
             <Navbar bg="white" variant="primary">
                 <Container>
                     <Navbar.Brand><Link to="/home" className=' nav-brand'>

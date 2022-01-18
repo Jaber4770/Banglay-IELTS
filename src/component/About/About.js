@@ -5,8 +5,11 @@ import img from '../../images/Banglay-IELTS-Profile.jpg'
 import qsnImg from '../../images/question.jpg'
 
 const About = () => {
+
+    // This is about section where i set instructor about and course details.
+
     return (
-        <div className=''>
+        <div>
             <Container>
                 <div className='p-3'>
                     <div>

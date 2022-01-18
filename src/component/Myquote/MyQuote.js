@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 const MyQuote = () => {
     return (
         <Container>
+            {/* This is Instructor quote. */}
             <div className='px-4 pt-5 pb-5'>
                 <blockquote>
                     <h3>

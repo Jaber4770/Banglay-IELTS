@@ -3,6 +3,8 @@ import { Container, Row } from 'react-bootstrap';
 import ServicesCart from '../ServicesCart/ServicesCart';
 
 const Service = () => {
+    // There i am loading data from ServicesData, public folder and converting data to js from json and sendint data to servicesCart by using map.
+    
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('./ServicesData.json')
@@ -11,7 +13,7 @@ const Service = () => {
     }, [])
 
     return (
-        <Container className='mt-5 mb-5'>
+        <Container className='mt-3 mb-5'>
             <div>
                 <h3 className='text-center bg-color p-3 text-light mb-4 why-chs-bg'>Our Services</h3>
             </div>

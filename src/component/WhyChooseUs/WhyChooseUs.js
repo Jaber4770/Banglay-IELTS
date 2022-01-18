@@ -6,6 +6,7 @@ import './WhyChooseUs.css'
 const WhyChooseUs = () => {
     return (
         <Container >
+            {/* here i tried to highlighed about Bangly IELTS */}
             <div>
                 <h2 className='text-center p-4 why-chs-bg'>Why Choose Us?</h2>
                 <div className='d-flex pb-5'>
@@ -21,6 +22,7 @@ const WhyChooseUs = () => {
                         <p className='fs-3'>☆ Always Open!😊</p>
                     </div>
                     <div className='w-50'>
+                        {/* banglay ielts profile photo */}
                         <img className='img-fluid w-100' src={img} alt="" />
                     </div>
                 </div>

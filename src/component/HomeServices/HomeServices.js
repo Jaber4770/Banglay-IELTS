@@ -3,12 +3,14 @@ import { Card, Col, Container } from 'react-bootstrap';
 import './HomeServices.css';
 
 const HomeServices = (props) => {
+    // get data from home component and did distructuring
     const { classes, grammer, img, listening, name, price, reading, solveClass, speaking, writting } = props.service;
 
     return (
         <div>
             <Container className='mb-5'>
                 <Col>
+                {/* there is set hight width of the card and card details for home component */}
                     <Card style={{ width: '17rem', height: '38rem' }}>
                         <Card.Img variant="top" src={img} />
                         <Card.Body>

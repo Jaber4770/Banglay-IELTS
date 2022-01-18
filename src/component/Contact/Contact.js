@@ -4,6 +4,9 @@ import img from '../../images/Contact.jpg'
 import './Contact.css'
 
 const Contact = () => {
+
+    // This is Contact component. here i explain not to disturb Instructor. Every info are set header top and footer that's why i did't set here contact info agin.
+
     return (
         <div>
             <Container>

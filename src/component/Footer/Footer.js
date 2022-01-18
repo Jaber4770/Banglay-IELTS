@@ -8,6 +8,7 @@ const Footer = () => {
     return (
         <div className='bg-dark'>
             <Container>
+                {/* About Instructor. He is not published details about his that's why i can't add more thing about his. */}
                 <div className='d-flex text-light pt-5 pe-5 pb-4'>
                     <div className='pe-5'>
                         <h2>About Me</h2>
@@ -15,6 +16,7 @@ const Footer = () => {
                             <h3>Name: Rashed</h3>
                         </div>
                     </div>
+                    {/* Contact info with font awesome icon */}
                     <div className='px-3'>
                         <h2>Contact Info</h2>
                         <div className='pt-3'>
@@ -24,6 +26,7 @@ const Footer = () => {
                             <span><FontAwesomeIcon icon={faMapMarkerAlt} /> Bijoy 71 Hall, University of Dhaka 1000 Dhaka, Dhaka Division, Bangladesh</span>
                         </div>
                     </div>
+                    {/* Social Media icon */}
                     <div className='px-3'>
                         <h2>Social Media</h2>
                         <div className='pt-3'>
@@ -35,6 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
+                    {/* CopyRight section */}
                     <h5 className='text-center text-light pb-3'>Copyright &copy; 2022 Banglay-IELTS.com</h5>
                 </div>
             </Container>

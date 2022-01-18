@@ -5,6 +5,7 @@ const NotFound = () => {
     return (
         <div>
             <Container>
+                {/* This is 404 page where i add one image and one line text */}
                 <div className='text-center p-5'>
                     <img src={img} alt="" />
                     <h2>This page is not found!</h2>

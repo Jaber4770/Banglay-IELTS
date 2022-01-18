@@ -13,6 +13,9 @@ const FAQ = () => {
                 <div className='d-flex'>
                     <div className='w-50'>
                         <div>
+                            
+                            {/* Frequently ask question are set here */}
+
                             <h5>1. "আপনার প্রাইভেট ব্যাচে কিভাবে Join করা যায়?"</h5>
                             <p className="ps-4">First you have to pay the couse fee and then send me the last 4 digit of the bkash number which number you used to pay the fee. Then you are the student of my Batch and I will provide you class schedule and ZOOM id and password to join in class.</p>
                         </div>
@@ -28,9 +31,13 @@ const FAQ = () => {
                         </div>
                         <div>
                             <h5>4. "দয়া করে আপনাদের YouTube Channel এর Link টা দেন।"</h5>
+
+                            {/* Abot Youtube Channel */}
+
                             <p className="ps-4"><a className='faq-yt-link' href="https://www.youtube.com/c/BanglayIELTS">Click here</a> to go my Youtube Channel</p>
                         </div>
                     </div>
+                    {/* FAQ image */}
                     <div className='w-50'>
                         <img className='img-fluid w-100' src={img} alt="" />
                     </div>

@@ -2,27 +2,32 @@
     {
         "name": "IELTS",
         "listening": "Listening",
+        "icon": "fas fa-headphones",
         "id": "1"
     },
     {
         "name": "IELTS",
         "speaking": "Speaking",
+        "icon": "fas fa-microphone-alt",
         "id": "2"
     },
     {
         "name": "IELTS",
         "reading": "Reading",
+        "icon": "fas fa-book-reader",
         "id": "3"
     },
     {
         "name": "IELTS",
         "writting": "Writting T1",
         "academic": "Academic",
+        "icon": "far fa-chart-bar",
         "id": "4"
     },
     {
         "name": "IELTS",
         "writting": "Writting T1",
+        "icon": "fas fa-envelope-open-text",
         "GT": "GT Letter",
         "id": "5"
     },
@@ -30,27 +35,39 @@
         "name": "IELTS",
         "writting": "Writting T2",
         "AcademicGT": "Academic & GT",
+        "icon": "fas fa-pencil-alt",
         "id": "6"
     },
     {
         "name": "IELTS",
         "vocabulary": "Vocabulary",
+        "icon": "fab fa-leanpub",
+        "id": "7"
+    },
+    {
+        "name": "IELTS",
+        "grammer": "Grammer",
+        "icon": "fas fa-spell-check",
         "id": "7"
     },
     {
         "name": "Useful links & Materials",
+        "icon": "fas fa-link",
         "id": "8"
     },
     {
         "name": "On the Day Tips",
+        "icon": "fas fa-lightbulb",
         "id": "9"
     },
     {
         "name": "Always Open",
+        "icon": "fas fa-door-open",
         "id": "10"
     },
     {
         "name": "Free Wifi",
+        "icon": "fas fa-wifi",
         "id": "11"
     }
 ]

@@ -13,6 +13,7 @@ import Review from './component/Review/Review';
 import Service from './component/Service/Service';
 
 function App() {
+  // all router are set here for landing page i used "/" and home, services, contact, about, faq, review and for wrong url i add * and not found page.
   return (
     <div className="App">
       <Router>
