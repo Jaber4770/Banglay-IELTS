@@ -5,17 +5,15 @@ import HomeServices from '../HomeServices/HomeServices';
 import MyQuote from '../Myquote/MyQuote';
 import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
 import './home.css'
+export const ServiceContext = createContext('Service');
 
 const Home = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('./servicesData.json')
+        fetch('./HomeServicesData.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
-
-    const serviceContext = createContext()
-
 
     return (
         <div>

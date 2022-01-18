@@ -1,42 +1,56 @@
 [
     {
-        "name": "IELTS Academic",
-        "classes": "Total Class: 30+",
-        "reading": "Reading: 10 Classes",
-        "writting": "Writting: 10 Classes",
-        "listening": "Listening: 8 Classes",
-        "speaking": "Speaking: 5 Classes",
-        "grammer": "Grammer: 2 classes",
-        "solveClass": "Solve Class: Unlimited",
-        "price": "Course Fee: 8000TK",
-        "img": "https://5.imimg.com/data5/SELLER/Default/2020/9/EM/BO/HX/110886475/cropped-ielts-academic-logo-500x500.jpg",
+        "name": "IELTS",
+        "listening": "Listening",
         "id": "1"
     },
     {
-        "name": "IELTS General",
-        "classes": "Total Class: 30+",
-        "reading": "Reading: 10 Classes",
-        "writting": "Writting: 10 Classes",
-        "listening": "Listening: 8 Classes",
-        "speaking": "Speaking: 5 Classes",
-        "grammer": "Grammer: 2 classes",
-        "solveClass": "Solve Class: Unlimited",
-        "price": "Course Fee: 8000TK",
-        "img": "https://rb.gy/m3bsxv",
+        "name": "IELTS",
+        "speaking": "Speaking",
         "id": "2"
     },
     {
-        "name": "Free Class Every Friday",
-        "classes": "1 Class at 10PM ",
-        "price": "Class Fee: Free",
-        "solveClass":"☆ Every Friday night with a lot of unknown bhai brothers 😊. Keep your eyes on my group to get ZOOM ID and Password for free class",
-        "img": "https://rb.gy/z1qosh",
+        "name": "IELTS",
+        "reading": "Reading",
         "id": "3"
     },
     {
-        "name": "Platform: Online (ZOOM)",
-        "img": "https://rb.gy/fla9xx",
-        "solveClass": "We will share our schedule of class, ZOOM ID and Password with you.",
+        "name": "IELTS",
+        "writting": "Writting T1",
+        "academic": "Academic",
         "id": "4"
+    },
+    {
+        "name": "IELTS",
+        "writting": "Writting T1",
+        "academic": "GT Letter",
+        "id": "5"
+    },
+    {
+        "name": "IELTS",
+        "writting": "Writting T2",
+        "academic": "Academic & GT",
+        "id": "6"
+    },
+    {
+        "name": "IELTS",
+        "vocabulary": "Vocabulary",
+        "id": "7"
+    },
+    {
+        "name": "Useful links & Materials",
+        "id": "8"
+    },
+    {
+        "name": "On the Day Tips",
+        "id": "9"
+    },
+    {
+        "name": "Always Open",
+        "id": "10"
+    },
+    {
+        "name": "Free Wifi",
+        "id": "11"
     }
 ]

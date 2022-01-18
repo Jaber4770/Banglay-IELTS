@@ -16,7 +16,9 @@ const WhyChooseUs = () => {
                         <p className='fs-4'>Target Band at least CLB 7 😊</p>
                         <p className='fs-4'>SEATS are Limited
                             Pay and confirm your seat.
-                            <span className='fs-3'>Bkash personal  01871298287</span></p>
+                            <span className='fs-3'>Bkash personal  01871298287</span>
+                        </p>
+                        <p className='fs-3'>Always Open!😊</p>
                     </div>
                     <div className='w-50'>
                         <img className='img-fluid w-100' src={img} alt="" />
