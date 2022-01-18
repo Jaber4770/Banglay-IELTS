@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className='bg-dark'>
             <Container>
-                <div className='d-flex text-light pt-5 pe-5 pb-5'>
+                <div className='d-flex text-light pt-5 pe-5 pb-4'>
                     <div className='pe-5'>
                         <h2>About Me</h2>
                         <div className='pt-3'>
@@ -33,6 +33,9 @@ const Footer = () => {
                         </div>
 
                     </div>
+                </div>
+                <div>
+                    <h5 className='text-center text-light pb-3'>Copyright &copy; 2022 Banglay-IELTS.com</h5>
                 </div>
             </Container>
         </div>

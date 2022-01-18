@@ -10,6 +10,7 @@ import Home from './component/Home/Home';
 import NotFound from './component/NotFound/NotFound';
 import Services from './component/Services/Services';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Review from './component/Review/Review';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path='/faq'>
             <FAQ></FAQ>
+          </Route>
+          <Route path='/review'>
+            <Review></Review>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>

@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import img from '../../images/HomeCoverImage.jpg'
 import HomeServices from '../HomeServices/HomeServices';
 import MyQuote from '../Myquote/MyQuote';
+import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
 import './home.css'
 
 const Home = () => {
@@ -28,8 +29,8 @@ const Home = () => {
                             ></HomeServices>)
                         }
                     </Row>
-
                 </div>
+                <WhyChooseUs></WhyChooseUs>
             </Container>
         </div>
     );
