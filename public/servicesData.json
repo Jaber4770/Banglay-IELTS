@@ -22,19 +22,21 @@
         "grammer": "Grammer: 2 classes",
         "solveClass": "Solve Class: Unlimited",
         "price": "Course Fee: 8000TK",
-        "img": "https://rb.gy/3ido0p",
+        "img": "https://rb.gy/m3bsxv",
         "id": "2"
     },
     {
         "name": "Free Class Every Friday",
         "classes": "1 Class at 10PM ",
-        "price": "Fee: Free",
+        "price": "Fee: Free.",
+        "solveClass":"☆ Every Friday night with a lot of unknown bhai brothers 😊. Keep your eyes on my group to get ZOOM ID and Password for free class",
         "img": "https://rb.gy/z1qosh",
         "id": "3"
     },
     {
         "name": "Platform: Online (ZOOM)",
-        "img": "https://rb.gy/0wgozz",
+        "img": "https://rb.gy/fla9xx",
+        "solveClass": "We will share our schedule of class, ZOOM ID and Password with you.",
         "id": "4"
     }
 ]

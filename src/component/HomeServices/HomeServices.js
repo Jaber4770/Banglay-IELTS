@@ -7,9 +7,9 @@ const HomeServices = (props) => {
 
     return (
         <div>
-            <Container>
+            <Container className='mb-5'>
                 <Col>
-                    <Card>
+                    <Card style={{ width: '17rem', height: '38rem' }}>
                         <Card.Img variant="top" src={img} />
                         <Card.Body>
                             <Card.Title><h2>{name}</h2></Card.Title>
