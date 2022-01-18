@@ -27,6 +27,7 @@ const Review = () => {
                     </Row>
                 </div>
                 <h3 className='text-center fs-3 p-3'>More Review are comming soon!</h3>
+                <p className='fs-3 ielts-result'>Note: photo are not comming from facebook link. I will fix it latter with daynamic system.</p>
             </Container>
         </div>
     );

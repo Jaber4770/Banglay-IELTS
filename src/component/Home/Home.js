@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { createContext, useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import img from '../../images/HomeCoverImage.jpg'
 import HomeServices from '../HomeServices/HomeServices';
@@ -13,6 +13,8 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
+
+    const serviceContext = createContext()
 
 
     return (

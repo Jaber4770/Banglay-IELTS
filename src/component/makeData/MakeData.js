@@ -1,39 +1,54 @@
 const makeData = [
     {
-        img: "https://rb.gy/jm225w",
+        name: "IELTS Academic",
+        class: "30+",
+        reading: "10 Classes",
+        writting: "10 Classes",
+        listening: "8 Classes",
+        speaking: "5 Classes",
+        grammer: '2 classes',
+        solveClass: 'Unlimited',
+        price: "8000TK",
+        img: "https://rb.gy/kgypne",
         id: "1"
-        
     },
     {
-        img: "https://rb.gy/9mrmwe",
+        name: "IELTS General",
+        class: "30+",
+        reading: "10 Classes",
+        writting: "10 Classes",
+        listening: "8 Classes",
+        speaking: "5 Classes",
+        grammer: '2 classes',
+        solveClass: 'Unlimited',
+        price: "8000TK",
+        img: "https://rb.gy/m3bsxv",
         id: "2"
     },
     {
-        img: "https://rb.gy/vx629u",
+        name: "Free Class Every Friday",
+        class: "1 Class at 10PM ",
+        reading: "",
+        writting: "",
+        listening: "",
+        speaking: "",
+        grammer: '',
+        solveClass: '',
+        price: "Free",
+        img: "https://rb.gy/z1qosh",
         id: "3"
     },
     {
-        img: "https://rb.gy/myxs2w",
+        name: "Platform: Online (ZOOM)",
+        class: "",
+        reading: "",
+        writting: "",
+        listening: "",
+        speaking: "",
+        grammer: '',
+        solveClass: '',
+        price: "",
+        img: "https://rb.gy/0wgozz",
         id: "4"
-    },
-    {
-        img: "https://rb.gy/dqcbp4",
-        id: "5"
-    },
-    {
-        img: "https://rb.gy/bgodxh",
-        id: "6"
-    },
-    {
-        img: "https://rb.gy/thwpmt",
-        id: "7"
-    },
-    {
-        img: "https://rb.gy/cntdsi",
-        id: "8"
-    },
-    {
-        img: "https://rb.gy/sagnaf",
-        id: "9"
-    },
+    }
 ];

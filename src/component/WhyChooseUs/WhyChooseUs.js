@@ -13,7 +13,7 @@ const WhyChooseUs = () => {
                         <h3 className='ielts-result'>আপনার স্কোরের গ্যারান্টি দিতে পারবো না, তবে IELTS এর ভয়ডর দূর করে দিবো।
                             No worries, <b>InSha'Allah</b> valo kicu paben 😊</h3>
                         <p className='fs-4'>☆ Per Week 5 classes = 3 main classes + 1 Solve Class + 1 Free live class (every Friday night with a lot of unknown bhai brothers 😊)</p>
-                        <p className='fs-4'>Target Band Atleast CLB 7 😊</p>
+                        <p className='fs-4'>Target Band at least CLB 7 😊</p>
                         <p className='fs-4'>SEATS are Limited
                             Pay and confirm your seat.
                             <span className='fs-3'>Bkash personal  01871298287</span></p>

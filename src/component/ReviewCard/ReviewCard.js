@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col, Container } from 'react-bootstrap';
 
 const ReviewCard = (props) => {
-    const {img} = props.review
+    const img = props.review.img
     return (
         <div>
             <Container className='mb-5'>
