@@ -23,13 +23,13 @@
     {
         "name": "IELTS",
         "writting": "Writting T1",
-        "academic": "GT Letter",
+        "GT": "GT Letter",
         "id": "5"
     },
     {
         "name": "IELTS",
         "writting": "Writting T2",
-        "academic": "Academic & GT",
+        "AcademicGT": "Academic & GT",
         "id": "6"
     },
     {

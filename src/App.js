@@ -8,9 +8,9 @@ import Footer from './component/Footer/Footer';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import NotFound from './component/NotFound/NotFound';
-import Services from './component/Services/Services';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Review from './component/Review/Review';
+import Service from './component/Service/Service';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <Home></Home>
           </Route>
           <Route path='/services'>
-            <Services></Services>
+            <Service></Service>
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
