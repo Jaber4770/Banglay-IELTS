@@ -11,41 +11,50 @@ import NotFound from './component/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Review from './component/Review/Review';
 import Service from './component/Service/Service';
+import { AuthContext } from './ContextApi/AuthProvider';
 
 function App() {
   // all router are set here for landing page i used "/" and home, services, contact, about, faq, review and for wrong url i add * and not found page.
   return (
     <div className="App">
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path='/'>
-            <Home></Home>
-          </Route>
-          <Route path='/home'>
-            <Home></Home>
-          </Route>
-          <Route path='/services'>
-            <Service></Service>
-          </Route>
-          <Route path='/contact'>
-            <Contact></Contact>
-          </Route>
-          <Route path='/about'>
-            <About></About>
-          </Route>
-          <Route path='/faq'>
-            <FAQ></FAQ>
-          </Route>
-          <Route path='/review'>
-            <Review></Review>
-          </Route>
-          <Route path='*'>
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
+      <AuthContext>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path='/'>
+              <Home></Home>
+            </Route>
+            <Route path='/home'>
+              <Home></Home>
+            </Route>
+            <Route path='/services'>
+              <Service></Service>
+            </Route>
+            <Route path='/contact'>
+              <Contact></Contact>
+            </Route>
+            <Route path='/about'>
+              <About></About>
+            </Route>
+            <Route path='/faq'>
+              <FAQ></FAQ>
+            </Route>
+            <Route path='/review'>
+              <Review></Review>
+            </Route>
+            <Route path='/login'>
+
+            </Route>
+            <Route path='/signin'>
+              
+            </Route>
+            <Route path='*'>
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthContext>
     </div>
   );
 }
