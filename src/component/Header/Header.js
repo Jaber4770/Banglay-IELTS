@@ -40,17 +40,16 @@ const Header = () => {
                         <NavLink to="/contact">Contact us</NavLink>
                         <NavLink to="/review">Review</NavLink>
                         <NavLink to="/faq">FAQ</NavLink>
-
                         {
                             user.email ?
-                                <div>
-                                    <h5 className='margin-left'>{user.displayName}</h5>
+                                <div className='d-flex'>
+                                    <p className='margin-left'>{user.displayName}</p>
                                     <button className='out-btn' onClick={LogOut}>Log Out</button>
                                 </div>
                                 :
-                                <div>
-                                    <Link className='in-btn' to="/login">Log in</Link>
-                                    <Link className='in-btn' to="/signup">Sign up</Link>
+                                <div className='d-flex ms-5'>
+                                    <NavLink className='in-btn' to="/login">Log in</NavLink>
+                                    <NavLink className='in-btn' to="/signup">Sign up</NavLink>
                                 </div>
                         }
                     </Nav>

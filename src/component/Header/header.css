@@ -54,12 +54,15 @@
     transition: .3s;
 }
 .margin-left{
-    margin-left: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 .out-btn{
-    border-color: #A22425;
+    border-color: #b62121;
     color:white;
     background-color: #A22425;
-    font-weight: 700;
-    margin-left: 50px;
+    font-weight: 600;
+    margin: 0;
 }
