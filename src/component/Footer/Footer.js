@@ -14,6 +14,7 @@ const Footer = () => {
                         <h2>About Me</h2>
                         <div className='pt-3'>
                             <h3>Name: Rashed</h3>
+                            <a className='text-light social-icon fb' href="https://www.facebook.com/RashedVaiIELTS"><FontAwesomeIcon icon={faFacebook} /></a>
                         </div>
                     </div>
                     {/* Contact info with font awesome icon */}
