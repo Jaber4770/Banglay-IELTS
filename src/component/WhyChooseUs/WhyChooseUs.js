@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
                     </div>
                     <div className='w-50'>
                         {/* banglay ielts profile photo */}
-                        <img className='img-fluid w-100' src={img} alt="" />
+                        <img className='img-fluid w-100 img-margin' src={img} alt="" />
                     </div>
                 </div>
             </div>

@@ -3,4 +3,8 @@
     background-color: #9A2223;
     color: white;
     border-radius: 2px;
+    margin: 0%;
+}
+.img-margin{
+    margin-top: 56px;
 }

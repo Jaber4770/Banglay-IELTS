@@ -6,8 +6,10 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import img from '../../images/Banglay-IELTS-Profile.jpg'
 import './header.css'
+import useAuth from '../../Hooks/useAuth';
 
 const Header = () => {
+    const { user, LogOut } = useAuth();
     return (
         <div>
 
@@ -39,6 +41,18 @@ const Header = () => {
                         <NavLink to="/review">Review</NavLink>
                         <NavLink to="/faq">FAQ</NavLink>
                     </Nav>
+                    {
+                        user.email ?
+                            <div>
+                                <h6>Welcome {user.displayName}</h6>
+                                <button className='in-out' onClick={LogOut}>Log Out</button>
+                            </div>
+                            :
+                            <div>
+                                <Link className='in-out' to="/login">Log in</Link>
+                                <Link className='in-out' to="/signup">Sign up</Link>
+                            </div>
+                    }
                 </Container>
             </Navbar>
             <div>

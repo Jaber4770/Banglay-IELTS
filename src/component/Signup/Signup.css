@@ -1,0 +1,21 @@
+.gle-log-in{
+    border-color: white;
+    background-color: #0F9D58;
+    margin: 2%;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.fb-log-in{
+    border-color: white;
+    background-color: 	#4267B2;
+    margin: 2%;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.sign-in-heading{
+    margin: 0;
+}

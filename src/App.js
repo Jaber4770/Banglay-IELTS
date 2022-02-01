@@ -11,13 +11,14 @@ import NotFound from './component/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Review from './component/Review/Review';
 import Service from './component/Service/Service';
-import { AuthContext } from './ContextApi/AuthProvider';
+import AuthProvider from './ContextApi/AuthProvider';
+import Login from './component/Login/Login';
+import Signup from './component/Signup/Signup';
 
 function App() {
   // all router are set here for landing page i used "/" and home, services, contact, about, faq, review and for wrong url i add * and not found page.
   return (
-    <div className="App">
-      <AuthContext>
+      <AuthProvider>
         <Router>
           <Header></Header>
           <Switch>
@@ -43,10 +44,10 @@ function App() {
               <Review></Review>
             </Route>
             <Route path='/login'>
-
+              <Login></Login>
             </Route>
-            <Route path='/signin'>
-              
+            <Route path='/signup'>
+              <Signup></Signup>
             </Route>
             <Route path='*'>
               <NotFound></NotFound>
@@ -54,8 +55,7 @@ function App() {
           </Switch>
           <Footer></Footer>
         </Router>
-      </AuthContext>
-    </div>
+      </AuthProvider>
   );
 }
 
