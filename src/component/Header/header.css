@@ -42,14 +42,24 @@
     color: #A22425;
     transition: .3s;
 }
-.in-out{
+.in-btn{
     text-decoration: none;
     color: black;
     font-size: 22px;
     padding: 10px;
     font-weight: 500;
 }
-.in-out:hover{
+.in-btn:hover{
     color: #A22425;
     transition: .3s;
+}
+.margin-left{
+    margin-left: 50px;
+}
+.out-btn{
+    border-color: #A22425;
+    color:white;
+    background-color: #A22425;
+    font-weight: 700;
+    margin-left: 50px;
 }

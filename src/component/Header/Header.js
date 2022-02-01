@@ -40,19 +40,20 @@ const Header = () => {
                         <NavLink to="/contact">Contact us</NavLink>
                         <NavLink to="/review">Review</NavLink>
                         <NavLink to="/faq">FAQ</NavLink>
+
+                        {
+                            user.email ?
+                                <div>
+                                    <h5 className='margin-left'>{user.displayName}</h5>
+                                    <button className='out-btn' onClick={LogOut}>Log Out</button>
+                                </div>
+                                :
+                                <div>
+                                    <Link className='in-btn' to="/login">Log in</Link>
+                                    <Link className='in-btn' to="/signup">Sign up</Link>
+                                </div>
+                        }
                     </Nav>
-                    {
-                        user.email ?
-                            <div>
-                                <h6>Welcome {user.displayName}</h6>
-                                <button className='in-out' onClick={LogOut}>Log Out</button>
-                            </div>
-                            :
-                            <div>
-                                <Link className='in-out' to="/login">Log in</Link>
-                                <Link className='in-out' to="/signup">Sign up</Link>
-                            </div>
-                    }
                 </Container>
             </Navbar>
             <div>
