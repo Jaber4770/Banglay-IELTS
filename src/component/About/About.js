@@ -17,6 +17,7 @@ const About = () => {
                         <p>This is Rashed. Founder of "Banglay IELTS". I studied from University of Dhaka. Currently I'am teaching as an IELTS instructor on online.
                             Thank you for reading about me!
                         </p>
+                        <img className='about-img-style' src="https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/43131414_1837912532928938_4495300994640379904_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeF4EuDVQZ15JExFFxcz8ZVOZlQx7tcBp8BmVDHu1wGnwJr9F1x0V3UWRNDbchM7rpj9W07uaZIBYFvDTiLtFue6&_nc_ohc=nhFD8HatFnIAX_90QLd&_nc_ht=scontent.fdac5-1.fna&oh=00_AT_7fJf_bFKVnN7XeE5M3Dteed51ncv6p8gyhdOYBI6q3A&oe=622070C5" alt="" />
                     </div>
                     <div>
                         <p className='ielts-result'>আপনার স্কোরের গ্যারান্টি দিতে পারবো না, তবে IELTS এর ভয়ডর দূর করে দিবো।

@@ -12,8 +12,8 @@ const Footer = () => {
                 <div className='d-flex text-light pt-5 pe-5 pb-4'>
                     <div className='pe-5'>
                         <h2>About Me</h2>
-                        <div className='pt-3'>
-                            <h3>Name: Rashed</h3>
+                        <div>
+                            <p className='fs-5 mb-3'>Name: Rashed Bin Ibrahim</p>
                             <a className='text-light social-icon fb' href="https://www.facebook.com/RashedVaiIELTS"><FontAwesomeIcon icon={faFacebook} /></a>
                         </div>
                     </div>
