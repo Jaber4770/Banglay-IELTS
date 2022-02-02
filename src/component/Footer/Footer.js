@@ -6,7 +6,7 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
-        <div className='bg-dark'>
+        <div className='bg-dark m-0 p-0'>
             <Container>
                 {/* About Instructor. He is not published details about his that's why i can't add more thing about his. */}
                 <div className='d-flex text-light pt-5 pe-5 pb-4'>

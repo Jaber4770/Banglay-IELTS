@@ -1,11 +1,22 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 import useAuth from '../../Hooks/useAuth';
 import './Signup.css'
 
 const Signup = () => {
     const { SignInUsingGoogle } = useAuth();
+    const history = useHistory();
+    const location = useLocation();
+    const redirectUrl = location.state?.from || '/login'
+
+    const handleGoogleLogin = () => {
+        SignInUsingGoogle()
+            .then(result => {
+            history.push(redirectUrl);
+        })
+    }
     return (
         <div>
             <h2 className='text-center why-chs-bg p-3'>Welcome to Banglay IELTS!</h2>
@@ -34,7 +45,7 @@ const Signup = () => {
                         </form>
                         <p>Already have an account? <Link to="/login">Login</Link></p>
                         <h5 className='sign-in-heading mt-5 mb-3'>Sign in With other Account!</h5>
-                        <button className='gle-log-in' onClick={SignInUsingGoogle}>Google</button>
+                        <button className='gle-log-in' onClick={handleGoogleLogin}>Google</button>
                         <button className='fb-log-in'>Facebook</button>
                     </div>
                 </div>

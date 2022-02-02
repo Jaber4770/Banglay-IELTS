@@ -14,6 +14,7 @@ import Service from './component/Service/Service';
 import AuthProvider from './ContextApi/AuthProvider';
 import Login from './component/Login/Login';
 import Signup from './component/Signup/Signup';
+import PrivateRoute from './component/PrivateRoute/PrivateRoute';
 
 function App() {
   // all router are set here for landing page i used "/" and home, services, contact, about, faq, review and for wrong url i add * and not found page.
@@ -40,9 +41,9 @@ function App() {
             <Route path='/faq'>
               <FAQ></FAQ>
             </Route>
-            <Route path='/review'>
+            <PrivateRoute path='/review'>
               <Review></Review>
-            </Route>
+            </PrivateRoute>
             <Route path='/login'>
               <Login></Login>
             </Route>
