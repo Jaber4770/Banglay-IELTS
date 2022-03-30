@@ -20,7 +20,7 @@ const Signup = () => {
     return (
         <div>
             <h2 className='text-center why-chs-bg p-3'>Welcome to Banglay IELTS.</h2>
-            <h2 className='text-center mt-3'>Sign up here!</h2>
+            <h2 className='text-center mt-3'>Signup here!</h2>
             <Container>
                 <div className='my-4 center'>
                     <div className='shadow width-40 text-center'>
