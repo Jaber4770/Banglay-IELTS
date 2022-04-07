@@ -49,7 +49,7 @@ const Header = () => {
                                 :
                                 <div className='d-flex ms-5'>
                                     <NavLink className='in-btn' to="/login">Log in</NavLink>
-                                    <NavLink className='in-btn' to="/signup">Sign up</NavLink>
+                                    <NavLink className='in-btn' to="/signup">Signup</NavLink>
                                 </div>
                         }
                     </Nav>
